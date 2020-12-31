@@ -342,6 +342,5 @@ View(educ)
   univer <- educ %>%
     group_by(`Nombre Institución`) %>%
     summarise(sum(`Nº Laboratorios`))
-  
 } 
 #####
