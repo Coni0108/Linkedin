@@ -342,6 +342,6 @@ View(educ)
   univer <- educ %>%
     group_by(`Nombre Institución`) %>%
     summarise(sum(`Nº Laboratorios`))
-  #copiado del Ignacio
+  # Copiado de Connie
 } 
 #####
